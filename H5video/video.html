@@ -1,0 +1,41 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>视频播放器</title>
+    <link href="mycss.css" rel="stylesheet">
+</head>
+<body>
+<div id="player">
+    <div id="player_header">
+        <h1>一路逆风</h1>
+    </div>
+    <div id="player_body">
+        <video poster="http://imgphoto.gmw.cn/attachement/jpg/site2/20140205/bc305baebed8145c227539.jpg" id="media">
+            <source src="http://www.webonly.org/project/video/deng.mp4" width="550">
+        </video>
+        <div id="controls">
+            <ul>
+                <li><button id="play">播放</button></li>
+                <li><button id="stop">停止</button></li>
+                <li><button id="mute">静音</button></li>
+                <li><button id="one">播放</button></li>
+                <li><button id="fullscreen">全屏</button></li>
+                <li>音量:<input type="range" value="50" min="0" max="100" id="range"><span id="result">50</span>%</li>
+
+            </ul>
+        </div>
+    </div>
+    <div id="player_footer">
+        <ul>
+            <li>
+                进度:
+                <progress id="progress" value="0" max="230"></progress><span id="progressResult">0/230</span>
+            </li>
+            <li>播放:88</li>
+            <li>分享:88</li>
+            <li>评论:88</li>
+        </ul>
+    </div>
+</div>
+<script src="main.js"></script>
+
+</body></html>

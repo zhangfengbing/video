@@ -1,0 +1,62 @@
+/*zhangfengbing 2016.7*/
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("http://imgstore.cdn.sogou.com/app/a/100540002/683899.jpg");
+}
+#player{
+    border:1px solid #d7d7d7;
+    width:550px;
+    height:450px;
+    margin:100px auto;
+
+}
+#player_header{
+    color:whitesmoke;
+    height:50px;
+    background: #DA70D6;
+    text-shadow: 2px 2px 1px blue;
+}
+#player_header h1{
+    text-align:center;
+    line-height:50px;
+}
+#player_body{
+    height:350px;
+    background:gray;
+}
+#player_body video{
+    width:550px;
+    height:300px;
+    object-fit:cover;
+}
+#controls{
+    height:50px;
+    background:#369;
+}
+#controls ul{
+    height:50px;
+}
+#controls ul li{
+    display:inline-block;
+    margin:10px;
+    margin-left:5px;
+}
+#controls button{
+    padding:5px;
+}
+#player_footer{
+    height:50px;
+    background:#DA70D6;
+}
+#player_footer ul{
+    text-align:right;
+    margin-right:15px;
+}
+#player_footer ul li{
+    display: inline-block;
+    line-height: 50px;
+}
